@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import styles from './style';
 import Logo from '../../components/logo/index';
-import LoginForm from '../../components/loginForm/index';
+import LoginForm from '../../containers/loginForm/index';
 export default class extends Component {
 
   render() {
