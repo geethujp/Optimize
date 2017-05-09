@@ -15,8 +15,8 @@ export default class extends Component {
   render() {
     return (
 		<View style = { styles.login_form_container }>
-      		<TextBox/>
-      		<TextBox/>
+      		<TextBox placeholder="Username"/>
+      		<TextBox placeholder="Password"/>
 		</View>
     );
   }

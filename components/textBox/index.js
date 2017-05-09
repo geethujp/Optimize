@@ -14,7 +14,7 @@ export default class extends Component {
   render() {
     return (
       <View style = { styles.loginform }>
-        <TextInput style = {styles.form_items} placeholder="Geethu" underlineColorAndroid='transparent' placeholderTextColor="#a9a9a9"/>
+        <TextInput style = {styles.form_items} placeholder={this.props.placeholder} underlineColorAndroid='transparent' placeholderTextColor="#a9a9a9"/>
       </View>
     );
   }

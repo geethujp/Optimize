@@ -3,7 +3,7 @@
  * Login container contains basic components like  Logo and LoginForm
  * View is used to wrap the container.
  */
-import React, { Component } from 'react';
+import React, { Component,Text } from 'react';
 import {
     View
 } from 'react-native';

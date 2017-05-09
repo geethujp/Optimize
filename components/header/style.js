@@ -16,8 +16,4 @@ export default StyleSheet.create({
         paddingRight: 5,
         paddingLeft: 5,
     },
-    header_item: {
-        fontSize: 12,
-        color: '#e8e9e9'
-    },
 });

@@ -1,6 +1,6 @@
 /**
- * Header Component
- * The header component consist of the header wrapper
+ * Header Item Component
+ * The header item component consist of the Text objects, inside the header component
  */
 import React, { Component } from 'react';
 import {
@@ -13,9 +13,7 @@ export default class extends Component {
 
   render() {
     return (
-      <View style = { styles.header }>
-      {this.props.children}
-      </View>
+      <Text style = { styles.header_item }>{this.props.label}</Text>
     );
   }
 }

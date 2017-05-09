@@ -22,7 +22,6 @@ export default StyleSheet.create({
     },
     login_form_container: {
         flex: 1,
-        justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#303b3d',
         alignSelf: 'stretch',

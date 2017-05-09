@@ -7,10 +7,10 @@ export default StyleSheet.create({
 
     login_container: {
         flex: 1,
-        justifyContent: 'center',
         alignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: '#303b3d',
         alignSelf: 'stretch',
-        height: Dimensions.get('window').height,
+        height: Dimensions.get('window').height
     }
 });
